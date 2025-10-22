@@ -1,0 +1,72 @@
+{
+  "config": {
+    "model_name": "yolov8m-cls.pt",
+    "epochs": 30,
+    "batch_size": 32,
+    "imgsz": 224,
+    "device": "cpu",
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "lrf": 0.01,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "cos_lr": true,
+    "hsv_h": 0.015,
+    "hsv_s": 0.7,
+    "hsv_v": 0.4,
+    "degrees": 15.0,
+    "translate": 0.1,
+    "scale": 0.5,
+    "fliplr": 0.5,
+    "patience": 10,
+    "workers": 4,
+    "cache": false,
+    "pretrained": true
+  },
+  "dataset": {
+    "num_classes": 7,
+    "classes": [
+      "Chair",
+      "Computer keyboard",
+      "Computer mouse",
+      "Headphones",
+      "Microphone",
+      "Mobile phone",
+      "Pen"
+    ],
+    "class_counts": {
+      "Chair": {
+        "train": 210,
+        "validation": 45
+      },
+      "Computer keyboard": {
+        "train": 209,
+        "validation": 44
+      },
+      "Computer mouse": {
+        "train": 205,
+        "validation": 43
+      },
+      "Headphones": {
+        "train": 206,
+        "validation": 44
+      },
+      "Microphone": {
+        "train": 195,
+        "validation": 41
+      },
+      "Mobile phone": {
+        "train": 207,
+        "validation": 44
+      },
+      "Pen": {
+        "train": 207,
+        "validation": 44
+      }
+    }
+  },
+  "results": {
+    "top1_accuracy": 0.868852436542511,
+    "top5_accuracy": 0.9934425950050354
+  }
+}
