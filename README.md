@@ -38,7 +38,6 @@ The model can identify the following office items:
 - [Technical Details](#technical-details)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
