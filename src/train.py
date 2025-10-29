@@ -25,7 +25,7 @@ MODEL_DIR.mkdir(exist_ok=True)
 CONFIG = {
     # Model
     'model_name': 'yolov8m-cls.pt',  # Options: n, s, m, l, x (nano to extra-large)
-    'epochs': 30,
+    'epochs': 20,
     'batch_size': 32,
     'imgsz': 224,
     'device': 0 if torch.cuda.is_available() else 'cpu',
@@ -35,7 +35,7 @@ CONFIG = {
     'lr0': 0.001,          # Initial learning rate
     'lrf': 0.01,           # Final learning rate (lr0 * lrf)
     'momentum': 0.9,
-    'weight_decay': 0.0005,
+    'weight_decay': 0.0008,
     'cos_lr': True,        # Cosine learning rate scheduler
 
     # Augmentation
@@ -48,7 +48,7 @@ CONFIG = {
     'fliplr': 0.5,         # Horizontal flip probability
 
     # Training settings
-    'patience': 10,        # Early stopping patience
+    'patience': 5,        # Early stopping patience
     'workers': 4,          # Data loader workers
     'cache': False,        # Cache images to RAM (True for faster training if enough RAM)
     'pretrained': True,    # Use pretrained weights
