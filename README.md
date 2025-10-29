@@ -4,7 +4,6 @@ A deep learning-based object detection and classification system for identifying
 
 ![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## Features
 
