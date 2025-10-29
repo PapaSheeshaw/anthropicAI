@@ -16,7 +16,6 @@ A modern, user-friendly GUI for the YOLO Office Items Classifier built with Cust
 ### 2. Webcam Classification
 - Real-time classification using your webcam
 - Live video preview with FPS counter
-- **Bounding box visualization** for detected objects (detection models)
 - Top-5 predictions display with **toggle button** to show/hide
 - Confidence scores
 - Save current frame capability
@@ -25,7 +24,6 @@ A modern, user-friendly GUI for the YOLO Office Items Classifier built with Cust
 ### 3. Upload Image
 - Select and classify single images
 - Support for multiple image formats (JPG, PNG, BMP, WEBP)
-- **Bounding box visualization** for detected objects (detection models)
 - Visual display of uploaded image
 - Top-5 predictions with confidence scores and **toggle button**
 - Easy file selection dialog
