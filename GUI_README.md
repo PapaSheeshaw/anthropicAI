@@ -2,11 +2,7 @@
 
 A modern, user-friendly GUI for the YOLO Office Items Classifier built with CustomTkinter.
 
-## Features
 
-> **NEW**: Toggle top-5 predictions visibility! Click "Hide Top-5" button to save screen space. See [TOGGLE_TOP5_FEATURE.md](TOGGLE_TOP5_FEATURE.md) for details.
-
-> **NEW**: Automatic bounding box detection for the top-1 detected class! See [BOUNDING_BOX_FEATURE.md](BOUNDING_BOX_FEATURE.md) for details.
 
 ### 1. Home Screen
 - Welcome screen with overview of features
