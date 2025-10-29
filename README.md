@@ -12,7 +12,6 @@ A deep learning-based object detection and classification system for identifying
 - **Real-time Inference**: 15-22 FPS on CPU, 80+ FPS on GPU
 - **Modern GUI**: CustomTkinter-based interface with dark/light mode
 - **Multiple Modes**: Webcam, single image upload, and batch processing
-- **Bounding Box Detection**: Visual detection for object localization
 - **Pre-trained Model**: Ready-to-use trained weights included
 
 ## Detected Classes
@@ -143,7 +142,6 @@ python src/inference_gui.py
 - View real-time predictions with confidence scores
 - Toggle top-5 predictions visibility
 - Save frames with "Save Current Frame" button
-- Bounding boxes displayed for detected objects
 
 **3. Upload Image**
 - Click "Upload Image" in sidebar
@@ -518,7 +516,7 @@ pip install -r requirements.txt
 
 - **[GUI_README.md](GUI_README.md)**: Detailed GUI usage guide
 - **[MODEL_DOCUMENTATION.md](MODEL_DOCUMENTATION.md)**: Complete technical documentation
-- **[90_PERCENT_ACTION_CHECKLIST.md](90_PERCENT_ACTION_CHECKLIST.md)**: Guide to improve accuracy to 90%+
+
 
 ## Contributing
 
@@ -530,18 +528,6 @@ Contributions are welcome! Please:
 4. Push to the branch (`git push origin feature/improvement`)
 5. Open a Pull Request
 
-### Areas for Contribution
-
-- Additional office item classes (stapler, calculator, etc.)
-- Model optimization (pruning, quantization)
-- Web-based interface
-- Mobile app (iOS/Android)
-- Improved data augmentation strategies
-- Multi-language support for GUI
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
@@ -556,9 +542,9 @@ If you use this project in your research or work, please cite:
 
 ```bibtex
 @software{office_items_classifier,
-  author = {Your Name},
+  author = {Keith Muhlanga, Paul Kamani, Nkem O Iwuagwu},
   title = {Office Items Classifier: YOLOv8-based Object Detection},
-  year = {2024},
+  year = {2025},
   url = {https://github.com/PapaSheeshaw/anthropicAI}
 }
 ```
@@ -567,8 +553,7 @@ If you use this project in your research or work, please cite:
 
 For questions, issues, or suggestions:
 - Open an issue on GitHub
-- Email: [your-email@example.com]
+- Email: keithmuhlanga@gmail.com
 
 ---
 
-**Built with [Claude Code](https://claude.com/claude-code)**
